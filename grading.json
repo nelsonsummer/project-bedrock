@@ -1,17 +1,27 @@
 {
-  "vpc_id": {
-    "value": "vpc-063aea48f99b94129"
-  },
-  "cluster_name": {
-    "value": "project-bedrock-cluster"
+  "assets_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "bedrock-assets-alt-soe-025-3369"
   },
   "cluster_endpoint": {
+    "sensitive": false,
+    "type": "string",
     "value": "https://5DF0A6F9A846890F4FB8AA174839403D.gr7.us-east-1.eks.amazonaws.com"
   },
+  "cluster_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "project-bedrock-cluster"
+  },
   "region": {
+    "sensitive": false,
+    "type": "string",
     "value": "us-east-1"
   },
-  "assets_bucket_name": {
-    "value": "bedrock-assets-altsoe0253369"
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "vpc-01dbeb83f247e15c5"
   }
 }

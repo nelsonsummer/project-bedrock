@@ -13,10 +13,10 @@ output "region" {
   value       = "us-east-1"
 }
 
-output "vpc_id" {
-  description = "The ID of the VPC"
-  value       = aws_vpc.main.id
-}
+#output "vpc_id" {
+ # description = "The ID of the VPC"
+ # value       = aws_vpc.main.id
+#}
 
 output "assets_bucket_name" {
   description = "S3 Bucket for Assets"

@@ -2,13 +2,13 @@ output "vpc_id" {
   value = aws_vpc.main.id
 }
 
-output "cluster_name" {
-  value = aws_eks_cluster.main.name
-}
+#output "cluster_name" {
+ # value = aws_eks_cluster.main.name
+#}
 
-output "cluster_endpoint" {
-  value = aws_eks_cluster.main.endpoint
-}
+#output "cluster_endpoint" {
+ # value = aws_eks_cluster.main.endpoint
+#}
 
 output "region" {
   value = "us-east-1"

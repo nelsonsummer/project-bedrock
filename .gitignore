@@ -5,3 +5,7 @@ lambda/function.zip
 lambda/test.txt
 *.backup
 project-bedrock-backup/
+retail-store-sample-app/
+tfplan
+current-outputs.txt
+terraform/current-state-list.txt
